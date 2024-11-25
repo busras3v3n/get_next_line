@@ -6,12 +6,12 @@
 /*   By: busseven <busseven@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/21 13:50:49 by busseven          #+#    #+#             */
-/*   Updated: 2024/11/25 19:38:32 by busseven         ###   ########.fr       */
+/*   Updated: 2024/11/25 19:54:37 by busseven         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 char	*ft_join(char	*str, char	*joining)
 {
