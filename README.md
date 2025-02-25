@@ -15,7 +15,4 @@ This approach prevents the shared use of the same buffer by different file descr
 
 ## Usage
 
-Just compile the files with your main file and include the header.<br>
-Use the _bonus files instead for the bonus version.
-
 Compile with option `-D BUFFER_SIZE=n` to specify the buffer size for read(). If the option is not used, it will use the default buffer size defined in [the header](./get_next_line.h).<br>
