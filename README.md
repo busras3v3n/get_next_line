@@ -3,7 +3,7 @@
 get_next_line() is a function that reads from a file descriptor, one line at a time.<br>
 
 `char *get_next_line(int fd)`<br><br>
-Calling get_next_line() once will return the first line of a file descriptor, and the second call will return the second line, and so on and so forth...<br>It returns NULL when EOF (end of file) is reached.<br>
+Calling get_next_line() once will return the first line of the file descriptor 'fd', and the second call with the same 'fd' will return the second line, and so on and so forth...<br>It returns NULL when EOF (end of file) is reached.<br>
 I use this function in many of my other C projects.<br><br>
 
 ## Bonus
